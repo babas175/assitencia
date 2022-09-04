@@ -23,7 +23,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            padding: 80px;
+            padding: 100px;
             border-radius: 15px;
             color: #fff;
         }
@@ -32,6 +32,7 @@
             border: none;
             outline: none;
             font-size: 15px;
+            border-radius: 15px;
         }
         button{
             background-color: dodgerblue;
