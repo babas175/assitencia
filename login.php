@@ -54,7 +54,7 @@
     <div>
         <h1>Funcionario</h1>
         <h1>Login</h1>
-        <input type="text" placeholder="Nome" >
+        <input type="text" placeholder="Id" >
         <br><br>
         <input type="password" placeholder="Senha">
         <br><br>
