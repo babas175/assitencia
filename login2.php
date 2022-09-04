@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+
+    
+<?php
+session_start();
+ 
+include'css/styles.css';
+include'db.php';
+
+
+session_start();
+if(@$_POST['email']=='megas' &&
+    @$_POST['senha']=='0000'){
+        $_SESSION['autenticados']=1;
+        header('Location: index.php');
+        exit();
+    }
+
+
+
+
+?>
+
+>>>>>>> 08b76a7e2e299d3ddd2959bb275cdb3a7ae627b5
 <!DOCTYPE html>
 <html lang="en">
 <head>

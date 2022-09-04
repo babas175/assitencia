@@ -63,7 +63,7 @@
         <br>
         <br>
         <a href="login2.php">eu sou administrador</a>
-        
     </div>
+
 </body>
 </html>
