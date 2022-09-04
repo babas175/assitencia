@@ -4,11 +4,25 @@
 <!-- <div style="width:150px; margin:auto; heigh:500px;margin-top:300px:background-color: blue;
 "> -->
 <?php
-// session_start();
  
  include'css/styles.css';
 
-
+ session_start();
+ if($data){
+ 
+   
+         $_SESSION['autenticados']=1;
+ 
+ 
+         echo '<meta http-equiv="refresh" content="2;url=index.php">';
+         echo '<progress max=100><strong>Progress:60%
+                 done.</strong></progress><br>';
+         echo '<span class= "itext"> please wait.......... !...</span>';
+ 
+         header('Location: index.php');
+         exit();
+    
+ }
 
 
 

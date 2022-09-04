@@ -11,7 +11,7 @@ session_start();
 if(@$_POST['email']=='megas' &&
     @$_POST['senha']=='0000'){
         $_SESSION['autenticados']=1;
-        header('Location: index2.php');
+        header('Location: index.php');
         exit();
     }
 
