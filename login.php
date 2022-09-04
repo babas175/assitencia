@@ -1,62 +1,69 @@
 <!DOCTYPE html>
-<html>
-    
-<!-- <div style="width:150px; margin:auto; heigh:500px;margin-top:300px:background-color: blue;
-"> -->
-<?php
-// session_start();
- 
- include'css/styles.css';
-
-
-
-
-
-
-
-
-?>
-
-    <div>
-
-
-    <link rel="stylesheet" href="styles.css">
-
-
-    <div class="login" >
-
-        <form 
-          action="login.php" method="post" >
-          <div class="caixa">
-                <h1 >Bem vindo ao Mega Assistencia</h1>
-                <p>Digite seu E-mail</p>
-                <input type="text" name="email">
-                <p>Digite sua senha</p>
-                <input type="password" name="senha" > 
-            </div>
-    
-
-            <div style="text-align: center;
-                margin-top: 0.5rem;">
-                    <button type="submit">Entrar</button> 
-                    
-                    
-                </div>
-
-                <div style="text-align: center;
-                    margin-top: 0.5rem; "> 
-                    <form>
-                        <a href="login2.php">
-                            <input type="button" value="Eu sou Administrador">
-
-                        </a>
-                                 
-                     </form>
-                </div>
-            </form>
-       
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(assets/fundo.jpeg);
+        }
+        a{
+            color:white;
+        }
+        h1{
+            text-align: center;
+        }
         
-
-        </form>
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Funcionario</h1>
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome" >
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Entrar</button>
+        <br>
+        <br>
+        <br>
+        <a href="login2.php">eu sou administrador</a>
+        
     </div>
- </html>
+</body>
+</html>

@@ -13,6 +13,7 @@
     width: 100%;
     max-width: 480px;
     padding: 0.5rem;
+    border-radius: 0px;
    }
 
    form.h1{
@@ -21,6 +22,7 @@
 
 .caixa{
     text-align: center;
+    border-radius: 5px;
 }
 input{
     border-radius: 5px;

@@ -1,61 +1,70 @@
-
-    
-<?php
-session_start();
- 
-include'css/styles.css';
-include'db.php';
-
-
-session_start();
-if(@$_POST['email']=='megas' &&
-    @$_POST['senha']=='0000'){
-        $_SESSION['autenticados']=1;
-        header('Location: index2.php');
-        exit();
-    }
-
-
-
-
-?>
-
 <!DOCTYPE html>
-<html>
-</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(assets/fundo.jpeg);
+        }
+        a{
+            color:white;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
-
-    <link rel="stylesheet" href="styles.css">
-
-
-    <div class="login" >
-
-        <form 
-          action="login2.php" method="post" >
-          <div class="caixa">
-                <h1 >Bem vindo ao Mega Assistencia</h1>
-                <p>Digite seu E-mail</p>
-                <input type="text" name="email">
-                <p>Digite sua senha</p>
-                <input type="password" name="senha" > 
-            </div>
     
-
-            <div style="text-align: center;
-                margin-top: 0.5rem;">
-                    <button type="submit">Entrar</button> 
-               
-
-             </div>
-
-             <div style="text-align: center;
-                margin-top: 0.5rem;">                    
-             </div>
-       
+    <div>
+        <h1>Administrador</h1>
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome" >
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Entrar</button>
+        <br>
+        <br>
+        <br>
+        <a href="login.php">eu sou funcionario</a>
         
-
-        </form>
     </div>
-
-
+</body>
 </html>
