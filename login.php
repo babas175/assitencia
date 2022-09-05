@@ -64,7 +64,7 @@
         <br>
         <br>
         <br>
-        <a href="login2.php">eu sou administrador</a>
+        <a href="login2.php">Eu sou administrador</a>
     </div>
 
 </body>

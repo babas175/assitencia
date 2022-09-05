@@ -64,7 +64,7 @@
         <br>
         <br>
         <br>
-        <a href="login.php">eu sou funcionario</a>
+        <a href="login.php">Eu sou funcionario</a>
         
     </div>
 </body>
