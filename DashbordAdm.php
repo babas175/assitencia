@@ -102,13 +102,6 @@
             <a href=""><div class="link">Lista de Serviços</div></a>
             <a href=""><div class="link">Cadastrar Produtos</div></a>
             <a href=""><div class="link">Fechamento caixa</div></a>
-
-            
-
-
-
-
-
             
         </nav>
 
