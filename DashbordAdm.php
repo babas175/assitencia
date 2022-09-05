@@ -16,7 +16,7 @@
 
     body {
         /*background-color: #f9f9f9;*/
-        background-image: url(assets/fundo.jpeg);
+        
     }
 
 
@@ -67,11 +67,10 @@
         background-color: #050542;
     }
 
-    #check:checked ~ .barra{
+    .barra{
         transform: translateX(300px);
     }
-
-    #check:checked ~ .barra nav a .link{
+    .barra nav a .link{
         opacity: 1;
         margin-top:0;
         transition-delay: .2s;
@@ -89,8 +88,7 @@
 
   <body>
     
-    <h1>MEGA CAPAS</h1>
-
+    
 
     <input type="checkbox" id="check">
     <label id="icone" for="check"><img src="assets/menu.png"></label>
