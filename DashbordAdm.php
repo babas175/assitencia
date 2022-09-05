@@ -77,6 +77,16 @@
         transition-delay: .2s;
     }
 
+    .container{
+        background-color: #333;
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        transition: all .2s linear;
+        left:-300px;
+
+    }
+
 </style>
 
 
@@ -98,23 +108,19 @@
     <div class="barra">
         <nav>
             <a href=""><div class="link">Home</div></a>
-            <a href=""><div class="link">Cadastrar Funcionario</div></a>
+            <a href="CadastraFun.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href=""><div class="link">Lista Funcionario</div></a>
             <a href=""><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Lista de Serviços</div></a>
             <a href=""><div class="link">Cadastrar Produtos</div></a>
             <a href=""><div class="link">Fechamento caixa</div></a>
-
             
-
-
-
-
-
             
         </nav>
 
     </div>
+
+    
 
 
   </body>
