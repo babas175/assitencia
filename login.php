@@ -51,21 +51,21 @@
     </style>
 </head>
 <body>
-    
+    <form action="cadFunc.php" method= "POST">
     <div>
        
         <h1>Funcionario</h1>
         <h1>Login</h1>
-        <input type="text" placeholder="Id" >
+        <input type="text" placeholder="Id" name="id" required >
         <br><br>
-        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Senha" name="senha" required>
         <br><br>
-        <button>Entrar</button>
+        <button type="submit" name ="entrar" >Entrar</button>
         <br>
         <br>
         <br>
         <a href="login2.php">Eu sou administrador</a>
     </div>
-
+    </form>
 </body>
 </html>

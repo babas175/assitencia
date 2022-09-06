@@ -60,8 +60,7 @@
         <br><br>
         <input type="password" placeholder="Senha" name="senha" required>
         <br><br>
-        
-        <input type="submit" value="Entrar" name="update"/>
+        <button type="submit">Entrar</button>
         <br>
         <br>
         <br>
