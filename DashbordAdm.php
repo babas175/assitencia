@@ -83,6 +83,9 @@
         
 
     }
+    h2{
+        color: white;
+    }
 
     .container{
         background-color: #333;
