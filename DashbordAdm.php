@@ -15,6 +15,8 @@
 
 
     body {
+        background-image: url(assets/fundo.jpeg);
+
         /*background-color: #f9f9f9;*/
         
     }
@@ -75,6 +77,10 @@
         margin-top:0;
         transition-delay: .2s;
     }
+    h1{
+        text-align:center
+
+    }
 
     .container{
         background-color: #333;
@@ -97,16 +103,20 @@
   </head>
 
   <body>
+
+  <!-- <h1> MEGA CAPAS</h1> -->
     
     
 
     <input type="checkbox" id="check">
-    <label id="icone" for="check"><img src="assets/menu.png"></label>
+    <!-- <label id="icone" for="check"><img src="assets/menu.png"></label> -->
+    <label id="icone" for="check"><h2>Dashbord</h2></label>
+
 
     <div class="barra">
         <nav>
             <a href=""><div class="link">Home</div></a>
-            <a href="CadastraFun.php"><div class="link">Cadastrar Funcionario</div></a>
+            <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href=""><div class="link">Lista Funcionario</div></a>
             <a href=""><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Lista de Serviços</div></a>

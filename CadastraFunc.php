@@ -3,26 +3,255 @@
 
 ?>
 
+
 <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    body {
+        /*background-color: #f9f9f9;*/
+        
+    }
+
+
+    #check{
+        display: none;
+    }
+
+    #icone{
+        cursor: pointer;
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    .barra{
+        background-color: #333;
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        transition: all .2s linear;
+        left:-300px;
+    }
+
+    nav{
+        width: 100%;
+        position: absolute;
+        top: 60px;
+    }
+
+    nav a{
+        text-decoration: none;
+    }
+
+    .link{
+        background-color: #494950;
+        padding: 20px;
+        font-family: 'Arial';
+        font-size: 12pt;
+        transition: all .2s linear;
+        color: #f4f4f9;
+        border-bottom: 2px solid #222;
+        opacity: 0;
+        margin-top: 200px;
+    }
+
+    .link:hover{
+        background-color: #050542;
+    }
+
+    .barra{
+        transform: translateX(300px);
+    }
+    .barra nav a .link{
+        opacity: 1;
+        margin-top:0;
+        transition-delay: .2s;
+    }
+    h1{
+        text-align:center
+
+    }
+
+    .container{
+        background-color: #333;
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        transition: all .2s linear;
+        left:-300px;
+
+    }
+
+    /* css form */
+
+   
+
+
+.atualiza {
+
+
+        background-color: #0000ff	;
+
+        padding: 12px 20px;
+        border: none;
+         border-radius: 4px;
+        cursor: pointer;
+        float: center;
+        text-align: center;
+        
+        position:absolute;
+        position:absolute;
+        top: 500px;
+        left: 280px;
+        
+            
+}
+
+
+
+
+
+* {
+box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 15px;
+    border: 0.5px solid rgb(248, 250, 248);
+    border-radius: 4px; 
+    resize: vertical;
+    }
+
+ label {
+    padding: 12px 12px 0;
+    display: inline-block;
+ }
+
+    input[type=submit] {
+        background-color: #0000ff;/* #7fff00*/
+        color: white;
+        padding: 12px 20px;
+        border: none;
+         border-radius: 4px;
+        cursor: pointer;
+        float: center;
+        text-align: center;
+            
+        position:absolute;
+        top: 500px;
+        left: 280px;
+    }
+
+    input[type=submit]:hover {
+        background-color: #141414;
+        }
+
+    .container {
+        width: 700px;
+        height: 580px;
+        background: #000080;/*#adff2f*/
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        transform: translate(0%,-5%);
+        border-radius: 10px;
+        padding: 25px;
+        float:left;
+                
+            
+    }
+
+    .container a{
+        /* position:absolute;
+        top: 500px;
+        left: 280px; 
+        height: 580px; */
+        
+        
+        float: right;
+        font-weight: bold;
+        color: #000000;
+        text-decoration:none;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        color: #fffffe;
+        text-decoration: black;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
+    @media screen and (max-width: 300px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100;
+          margin-top: 50;
+        }
+        }
+
 
 </style>
 
 
 <!DOCTYPE html>
-<html lang="pt-br">
-<link rel="stylesheet" href="caixa.css">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dashbord Adm</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cadastra Funcionário</title>
+  <body>
+
+  <!-- <h1> MEGA CAPAS</h1> -->
     
-</head>
-<body>
+    
+
+    <input type="checkbox" id="check">
+    <!-- <label id="icone" for="check"><img src="assets/menu.png"></label> -->
+    <label id="icone" for="check"><h2>Dashbord</h2></label>
+
+
+    <div class="barra">
+        <nav>
+            <a href="DashbordAdm.php"><div class="link">Home</div></a>
+            <a href="CadastraFun.php"><div class="link">Cadastrar Funcionario</div></a>
+            <a href=""><div class="link">Lista Funcionario</div></a>
+            <a href=""><div class="link">Ordem de Servicos</div></a>
+            <a href=""><div class="link">Lista de Serviços</div></a>
+            <a href=""><div class="link">Cadastrar Produtos</div></a>
+            <a href=""><div class="link">Fechamento caixa</div></a>
+            
+            
+        </nav>
+
+    </div>
+
+    
+
 
 <br>
 
+<h1> MEGA CAPAS</h1>
 
 <div class="container">
   <a href="DashbordAdm.php"><button>Voltar</button></a>
