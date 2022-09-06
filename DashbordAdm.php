@@ -41,6 +41,7 @@
         position: absolute;
         transition: all .2s linear;
         left:-300px;
+        
     }
 
     nav{

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 
 
@@ -85,7 +85,11 @@
         width: 300px;
         position: absolute;
         transition: all .2s linear;
-        left:-300px;
+        left:-100px;
+        justify-content: center;    
+        
+       
+           
 
     }
 
@@ -116,8 +120,6 @@
 
 
 
-
-
 * {
 box-sizing: border-box;
 }
@@ -125,7 +127,7 @@ input[type=text], select, textarea {
     width: 70%;
     padding: 15px;
     border: 0.5px solid rgb(248, 250, 248);
-    border-radius: 4px; 
+    border-radius: 15px; 
     resize: vertical;
     }
 
@@ -135,11 +137,11 @@ input[type=text], select, textarea {
  }
 
     input[type=submit] {
-        background-color: #0000ff;/* #7fff00*/
+        background-color: #494950;/* #7fff00*/
         color: white;
         padding: 12px 20px;
         border: none;
-         border-radius: 4px;
+         border-radius: 15px;
         cursor: pointer;
         float: center;
         text-align: center;
@@ -150,21 +152,22 @@ input[type=text], select, textarea {
     }
 
     input[type=submit]:hover {
-        background-color: #141414;
+        background-color:  black;
         }
 
     .container {
         width: 700px;
         height: 580px;
-        background: #000080;/*#adff2f*/
+        background: #333;/*#adff2f*/
         position: absolute;
-        top: 100px;
-        left: 400px;
+        top: 130px;
+        left: 500px;
         transform: translate(0%,-5%);
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 25px;
         float:left;
-                
+        justify-content: center;    
+            
             
     }
 
@@ -179,6 +182,7 @@ input[type=text], select, textarea {
         font-weight: bold;
         color: #000000;
         text-decoration:none;
+        justify-content: center;  
     }
 
     .col-25 {
@@ -194,12 +198,17 @@ input[type=text], select, textarea {
         width: 75%;
         margin-top: 6px;
     }
+    h2{
+      color: white;
+      text-align:center
+    }
 
     /* Clear floats after the columns */
     .row:after {
     content: "";
     display: table;
     clear: both;
+   
     }
 
 
@@ -207,15 +216,15 @@ input[type=text], select, textarea {
         .col-25, .col-75, input[type=submit] {
           width: 100;
           margin-top: 50;
+          
         }
         }
+
 
 
 </style>
 
 
-=======
->>>>>>> 5f5f21b4f31155e654b015164e2bec1a918dc4ae
 <!DOCTYPE html>
 <html>
     <head>
@@ -231,13 +240,13 @@ input[type=text], select, textarea {
 
     <input type="checkbox" id="check">
     <!-- <label id="icone" for="check"><img src="assets/menu.png"></label> -->
-    <label id="icone" for="check"><h2>Dashbord</h2></label>
+    <label id="icone" for="check"><h2>Dashboard</h2></label>
 
 
     <div class="barra">
         <nav>
             <a href="DashbordAdm.php"><div class="link">Home</div></a>
-            <a href="CadastraFun.php"><div class="link">Cadastrar Funcionario</div></a>
+            <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href=""><div class="link">Lista Funcionario</div></a>
             <a href=""><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Lista de Serviços</div></a>
@@ -258,7 +267,12 @@ input[type=text], select, textarea {
 
 <div class="container">
   <a href="DashbordAdm.php"><button>Voltar</button></a>
-  <h1>Cadastra Funcionário</h1>
+  <br>
+  <h2>Cadastra Funcionário</h2>
+  <br>
+  <br>
+  <br>
+  
 
  
   <form action="cadFunc.php" method= "POST">
