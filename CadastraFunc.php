@@ -75,7 +75,12 @@
         transition-delay: .2s;
     }
     h1{
-        text-align:center
+        text-align:center;
+        background-color : #494950;
+        radius-border: 15px;
+        color: white;
+        
+        
 
     }
 
@@ -249,7 +254,7 @@ input[type=text], select, textarea {
             <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href=""><div class="link">Lista Funcionario</div></a>
             <a href=""><div class="link">Ordem de Servicos</div></a>
-            <a href=""><div class="link">Lista de Serviços</div></a>
+            <a href=""><div class="link">Listar de Serviços</div></a>
             <a href=""><div class="link">Cadastrar Produtos</div></a>
             <a href=""><div class="link">Fechamento caixa</div></a>
             
@@ -268,7 +273,7 @@ input[type=text], select, textarea {
 <div class="container">
   <a href="DashbordAdm.php"><button>Voltar</button></a>
   <br>
-  <h2>Cadastra Funcionário</h2>
+  <h2>Cadastrar Funcionário</h2>
   <br>
   <br>
   <br>
