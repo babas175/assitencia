@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 
@@ -213,6 +214,8 @@ input[type=text], select, textarea {
 </style>
 
 
+=======
+>>>>>>> 5f5f21b4f31155e654b015164e2bec1a918dc4ae
 <!DOCTYPE html>
 <html>
     <head>
