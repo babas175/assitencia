@@ -256,7 +256,7 @@ input[type=text], select, textarea {
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href=""><div class="link">Cadastrar Produtos</div></a>
-            <a href=""><div class="link">Fechamento caixa</div></a>
+            <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
             
             
         </nav>
