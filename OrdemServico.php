@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+
+<?php
+
+
+?>
 
 
 <style>
@@ -157,15 +154,18 @@ input[type=text], select, textarea {
         position:absolute;
         top: 500px;
         left: 280px;
+        margin-top: 60px; /* descer mais para baixo o botão submit */
+
     }
 
     input[type=submit]:hover {
         background-color:  black;
+
         }
 
     .container {
         width: 700px;
-        height: 580px;
+        height: 620px; /*580 */
         background: #333;/*#adff2f*/
         position: absolute;
         top: 130px;
@@ -203,8 +203,8 @@ input[type=text], select, textarea {
 
     .col-75 {
         float: left;
-        width: 75%;
-        margin-top: 20px;
+        width: 70%;
+        margin-top: 10px;
     }
     h2{
       color: white;
@@ -217,10 +217,6 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
    
-    }
-    button{
-      border-radius: 5px;
-      cursor: pointer;
     }
 
 
@@ -237,9 +233,15 @@ input[type=text], select, textarea {
 </style>
 
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dashbord Adm</title>
+  </head>
+
   <body>
 
-  <!-- <h1> MEGA CAPAS</h1> -->
     
     
 
@@ -271,43 +273,24 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
-  <a href="DashbordAdm.php"><button>  Voltar  </button></a>
+  <a href="DashbordAdm.php"><button>Voltar</button></a>
   <br>
-  <h2>Cadastrar Funcionário</h2>
+  <h2>Ordem de Serviços</h2>
   <br>
   <br>
   <br>
   
 
  
-  <form action="cadFunc.php" method= "POST">
-  <div class="row">
-    <div class="col-25">
-      <label for="cpf">CPF</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="cpf" name="cpf" placeholder=" Digite cpf " required>
-    </div>
-  </div>
+  <form action="OrdemServico.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="nome">Nome</label>
     </div>
     <div class="col-75">
-      <input type="text" id="nome" name="nome" placeholder="Digite nome"required>
+      <input type="text" id="nome" name="nome" placeholder=" Digite nome " required>
     </div>
   </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="modelo">E-mail</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="email" name="email" placeholder="Digite o email"required>
-    </div>
-  </div>
-  
-  
-
   <div class="row">
     <div class="col-25">
       <label for="telefone">Telefone</label>
@@ -315,22 +298,73 @@ input[type=text], select, textarea {
     <div class="col-75">
       <input type="text" id="telefone" name="telefone" placeholder="(xx)xxxxxxxxx"required>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="modelo">Modelo</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="modelo" name="modelo" placeholder="Digite o modelo"required>
+    </div>
+  </div>
+  
+  
+
+  <div class="row">
+    <div class="col-25">
+      <label for="defeito">Defeito</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="defeito" name="defeito" placeholder="Digite o defeito"required>
+    </div>
     
   </div>
 
   <div class="row">
     <div class="col-25">
-      <label for="telefone">Senha</label>
+      <label for="data">Data</label>
     </div>
     <div class="col-75">
-      <input type="Password" id="senha" name="senha" placeholder="password"required>
+      <input type="date" id="data" name="data" placeholder="dd-mm-yyyy"required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="valor">Valor</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="valor" name="valor" placeholder="valor"required>
     </div>
     
   </div>
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="datadeentrega">Data de Entrega</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="datadeentrega" name="datadeentrega" placeholder="dd-mm-yyyy"required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="obs">Observação</label>
+    </div>
+    <div class="col-75">
+      <textarea type="text" id="obs" name="obs" placeholder=""required></textarea>
+    </div>
+  </div>
+
+
+  
+  
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Cadastra Funcionário" name="cadastrar"/>
+    <input type="submit" value="Registra Ordem" name="update"/>
   </div>
   </form>
 </div>
