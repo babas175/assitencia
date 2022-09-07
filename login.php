@@ -51,12 +51,12 @@
     </style>
 </head>
 <body>
-    <form action="cadFunc.php" method= "POST">
+    <form action="login_back.php" method= "POST">
     <div>
        
         <h1>Funcionario</h1>
         <h1>Login</h1>
-        <input type="text" placeholder="Id" name="id" required >
+        <input type="text" placeholder="cpf" name="cpf" required >
         <br><br>
         <input type="password" placeholder="Senha" name="senha" required>
         <br><br>

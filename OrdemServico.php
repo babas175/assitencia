@@ -357,14 +357,13 @@ input[type=text], select, textarea {
       <textarea type="text" id="obs" name="obs" placeholder=""required></textarea>
     </div>
   </div>
-
-
-  
+  <br>
+  <br>
   
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Registra Ordem" name="update"/>
+    <input type="submit" value="Registra Ordem" name="registar"/>
   </div>
   </form>
 </div>

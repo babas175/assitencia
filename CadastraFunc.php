@@ -280,7 +280,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="cadFunc.php" method= "POST">
+  <form action="cadastrar.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="cpf">CPF</label>
