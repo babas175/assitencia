@@ -51,7 +51,7 @@
     </style>
 </head>
 <body>
-    <form action="cadFunc.php" method= "POST">
+    <form action="login2_back.php" method= "POST">
     
     <div>
         <h1>Administrador</h1>
@@ -60,7 +60,7 @@
         <br><br>
         <input type="password" placeholder="Senha" name="senha" required>
         <br><br>
-        <button type="submit">Entrar</button>
+        <button type="submit" name ="entrar" >Entrar</button>
         <br>
         <br>
         <br>

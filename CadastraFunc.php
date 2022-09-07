@@ -1,8 +1,11 @@
-
-<?php
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
 
 <style>
@@ -215,6 +218,10 @@ input[type=text], select, textarea {
     clear: both;
    
     }
+    button{
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
 
     @media screen and (max-width: 300px) {
@@ -229,13 +236,6 @@ input[type=text], select, textarea {
 
 </style>
 
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Dashbord Adm</title>
-  </head>
 
   <body>
 
@@ -252,7 +252,7 @@ input[type=text], select, textarea {
         <nav>
             <a href="DashbordAdm.php"><div class="link">Home</div></a>
             <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
-            <a href=""><div class="link">Lista Funcionario</div></a>
+            <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href=""><div class="link">Cadastrar Produtos</div></a>
@@ -271,7 +271,7 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
-  <a href="DashbordAdm.php"><button>Voltar</button></a>
+  <a href="DashbordAdm.php"><button>  Voltar  </button></a>
   <br>
   <h2>Cadastrar Funcionário</h2>
   <br>
@@ -280,7 +280,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="cadFunc.php" method= "POST">
+  <form action="cadastrar.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="cpf">CPF</label>
@@ -330,7 +330,7 @@ input[type=text], select, textarea {
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Cadastra Funcionário" name="update"/>
+    <input type="submit" value="Cadastra Funcionário" name="cadastrar"/>
   </div>
   </form>
 </div>
