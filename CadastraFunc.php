@@ -1,8 +1,11 @@
-
-<?php
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
 
 <style>
@@ -215,6 +218,10 @@ input[type=text], select, textarea {
     clear: both;
    
     }
+    button{
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
 
     @media screen and (max-width: 300px) {
@@ -229,13 +236,6 @@ input[type=text], select, textarea {
 
 </style>
 
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Dashbord Adm</title>
-  </head>
 
   <body>
 
@@ -271,7 +271,7 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
-  <a href="DashbordAdm.php"><button>Voltar</button></a>
+  <a href="DashbordAdm.php"><button>  Voltar  </button></a>
   <br>
   <h2>Cadastrar Funcionário</h2>
   <br>
@@ -330,7 +330,7 @@ input[type=text], select, textarea {
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Cadastra Funcionário" name="update"/>
+    <input type="submit" value="Cadastra Funcionário" name="cadastrar"/>
   </div>
   </form>
 </div>
