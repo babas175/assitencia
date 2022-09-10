@@ -11,7 +11,7 @@
 
   if ($query_run)
   {
-    echo header('Location: DashbordAdm.php');
+    echo header('Location: Success.php');
   }
   else
   {
