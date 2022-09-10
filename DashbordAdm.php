@@ -127,6 +127,9 @@
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
+            <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
+            <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
+
             <a href="sair.php"><div class="link">Sair</div></a>
             
 

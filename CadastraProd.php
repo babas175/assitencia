@@ -259,6 +259,9 @@ input[type=text], select, textarea {
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
+            <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
+            <a href="AtualizaProd.php"><div class="link">Atualiza Produtos</div></a>
+
             <a href="sair.php"><div class="link">Sair</div></a>
             
             
@@ -289,7 +292,7 @@ input[type=text], select, textarea {
       <label for="cpf">Id</label>
     </div>
     <div class="col-75">
-      <input type="text" id="id" name="cpf" placeholder=" Digite id " required>
+      <input type="text" id="id" name="id" placeholder=" Digite id " required>
     </div>
   </div>
   <div class="row">

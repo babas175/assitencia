@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -259,8 +264,10 @@ input[type=text], select, textarea {
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
-            <a href="AtualizaProd.php"><div class="link">Atualiza Produtos</div></a>
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
+            <a href="AtualizaProd.php"><div class="link">Atualiza Produtos</div></a>
+
+
             <a href="sair.php"><div class="link">Sair</div></a>
             
             
@@ -278,61 +285,48 @@ input[type=text], select, textarea {
 <div class="container">
   <a href="DashbordAdm.php"><button>  Voltar  </button></a>
   <br>
-  <h2>Fechamento Caixa</h2>
+  <h2>Atualizar Produtos</h2>
   <br>
   <br>
   <br>
   
 
  
-  <form action="cadastrar.php" method= "POST">
+  <form action="AtualizaProd.php" method= "POST">
   <div class="row">
     <div class="col-25">
-      <label for="cpf">Valor</label>
+      <label for="cpf">Id</label>
     </div>
     <div class="col-75">
-      <input type="text" id="id" name="cpf" placeholder=" Digite o valor " required>
+      <input type="text" id="id" name="id" placeholder=" Digite id " required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="nome">Nome</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="nome" name="nome" placeholder="Digite nome do produtos"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="valor">Valor</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="valor" name="valor" placeholder="Digite o valor"required>
     </div>
   </div>
   
   
-  <div class="row">
-    <div class="col-25">
-      <label for="opcao">Opção</label>
-    </div>
-    <div class="col-75">
-      <select id="opcao" name="opcao">
-        <option value="avista">Entrada</option>
-        <option value="Boleto">Saida</option>
-               
-      </select>
-    </div>
 
-    <div class="row">
-    <div class="col-25">
-      <label for="data">Data</label>
-    </div>
-    <div class="col-75">
-      <input type="date" id="data" name="data" placeholder="dd-mm-yyyy"required>
-    </div>
-  </div>
-    
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="obs">Descrição</label>
-    </div>
-    <div class="col-75">
-      <textarea type="text" id="obs" name="obs" placeholder=""required></textarea>
-    </div>
-  </div>
- 
+
 
  
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Fechamento caixa" name="cadastrar"/>
+    <input type="submit" value="Atualiza Produtos" name="atualizar"/>
   </div>
   </form>
 </div>
