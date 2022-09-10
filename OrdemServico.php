@@ -285,7 +285,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="OrdemServico.php" method= "POST">
+  <form action="OrdemServico1.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="nome">Nome</label>
@@ -328,7 +328,7 @@ input[type=text], select, textarea {
       <label for="data">Data</label>
     </div>
     <div class="col-75">
-      <input type="date" id="data" name="data" placeholder="dd-mm-yyyy"required>
+      <input type="date" id="data" name="data1" placeholder="dd-mm-yyyy"required>
     </div>
   </div>
 
@@ -348,7 +348,7 @@ input[type=text], select, textarea {
       <label for="datadeentrega">Data de Entrega</label>
     </div>
     <div class="col-75">
-      <input type="date" id="datadeentrega" name="datadeentrega" placeholder="dd-mm-yyyy"required>
+      <input type="date" id="datadeentrega" name="data_entrega" placeholder="dd-mm-yyyy" required>
     </div>
   </div>
 

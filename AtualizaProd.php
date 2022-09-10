@@ -292,7 +292,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="AtualizaProd.php" method= "POST">
+  <form action="AtualizaProd1.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="cpf">Id</label>
@@ -317,19 +317,15 @@ input[type=text], select, textarea {
       <input type="text" id="valor" name="valor" placeholder="Digite o valor"required>
     </div>
   </div>
-  
-  
-
-
-
  
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Atualiza Produtos" name="atualizar"/>
+    <input type="submit" value="Atualiza Produtos" name="update"/>
   </div>
   </form>
 </div>
 
 </body>
 </html>
+
