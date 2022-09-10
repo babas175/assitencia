@@ -119,13 +119,13 @@
 
     <div class="barra">
         <nav>
-            <a href="../DashbordFunc.php"><div class="link">Home</div></a>
-            <a href="../OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
+            <a href="DashbordFunc.php"><div class="link">Home</div></a>
+            <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
-            <a href="../CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
-            <a href="../Fechamento.php"><div class="link">Fechamento caixa</div></a>
-            <a href="../AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
-            <a href="sair.php"><div class="link">Sair</div></a>
+            <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
+            <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
+            <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
+            <a href="../sair.php"><div class="link">Sair</div></a>
             
 
         </nav>
