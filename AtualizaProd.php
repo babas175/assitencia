@@ -267,6 +267,12 @@ input[type=text], select, textarea {
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
             <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
             <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
+<<<<<<< HEAD
+=======
+            <a href="sair.php"><div class="link">Sair</div></a>
+
+
+>>>>>>> 99ff35a7de7c0f8abcaac44a741a3d27d66115d0
             <a href="sair.php"><div class="link">Sair</div></a>
             
             

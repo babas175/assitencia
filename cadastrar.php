@@ -16,7 +16,7 @@
 
 
     if(mysqli_query($conexao, $sql)){
-        echo header('Location: DashbordAdm.php');
+        echo header('Location: Success.php');
     }
     else{
         echo "Erro nao foi possivel cadastrar esse funcionario verificar os dados ou tenta de novo".mysqli_connect_error();
