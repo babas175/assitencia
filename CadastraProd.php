@@ -252,7 +252,7 @@ input[type=text], select, textarea {
 
     <div class="barra">
         <nav>
-            <a href="#"><div class="link">Home</div></a>
+            <a href=""><div class="link">Home</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
