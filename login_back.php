@@ -26,7 +26,7 @@ if(isset($_POST['entrar'])):
                     $dados = mysqli_fetch_array($resultado);
                     $_SESSION['logado']= true;
                     $_SESSION['id_usuario'] = $dados['cpf'];
-                    header('Location: funcionario/DashbordAdm.php');
+                    header('Location: funcionario/DashbordFunc.php');
                
                 else:
                     $erros[] ="<li> Usuario e senha NAO CONFERE </li>";
