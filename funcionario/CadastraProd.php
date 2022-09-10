@@ -241,7 +241,6 @@ input[type=text], select, textarea {
 
   <body>
 
-
   <!-- <h1> MEGA CAPAS</h1> -->
     
     
@@ -253,16 +252,11 @@ input[type=text], select, textarea {
 
     <div class="barra">
         <nav>
-        <a href="DashbordAdm.php"><div class="link">Home</div></a>
-            <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
-            <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
-            <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
+            <a href="../DashbordFunc.php"><div class="link">Home</div></a>
+            <a href="../OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
-            <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
-            <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
-            <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
-            <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
-            <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
+            <a href="../CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
+            <a href="../Fechamento.php"><div class="link">Fechamento caixa</div></a>
             <a href="sair.php"><div class="link">Sair</div></a>
             
             
@@ -279,61 +273,48 @@ input[type=text], select, textarea {
 
 <div class="container">
   <br>
-  <h2>Fechamento Caixa</h2>
+  <h2>Cadastrar Produtos</h2>
   <br>
   <br>
   <br>
   
 
  
-  <form action="cadastrar.php" method= "POST">
+  <form action="cadastrarProd1.php" method= "POST">
   <div class="row">
     <div class="col-25">
-      <label for="cpf">Valor</label>
+      <label for="cpf">Id</label>
     </div>
     <div class="col-75">
-      <input type="text" id="id" name="cpf" placeholder=" Digite o valor " required>
+      <input type="text" id="id" name="id" placeholder=" Digite id " required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="nome">Nome</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="nome" name="nome" placeholder="Digite nome do produtos"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="valor">Valor</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="valor" name="valor" placeholder="Digite o valor"required>
     </div>
   </div>
   
   
-  <div class="row">
-    <div class="col-25">
-      <label for="opcao">Opção</label>
-    </div>
-    <div class="col-75">
-      <select id="opcao" name="opcao">
-        <option value="avista">Entrada</option>
-        <option value="Boleto">Saida</option>
-               
-      </select>
-    </div>
 
-    <div class="row">
-    <div class="col-25">
-      <label for="data">Data</label>
-    </div>
-    <div class="col-75">
-      <input type="date" id="data" name="data" placeholder="dd-mm-yyyy"required>
-    </div>
-  </div>
-    
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="obs">Descrição</label>
-    </div>
-    <div class="col-75">
-      <textarea type="text" id="obs" name="obs" placeholder=""required></textarea>
-    </div>
-  </div>
- 
+
 
  
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Fechamento caixa" name="cadastrar"/>
+    <input type="submit" value="Cadastra Produtos" name="cadastrar"/>
   </div>
   </form>
 </div>

@@ -124,7 +124,7 @@
 
     <div class="barra">
         <nav>
-            <a href="#"><div class="link">Home</div></a>
+            <a href="DashbordAdm.php"><div class="link">Home</div></a>
             <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
