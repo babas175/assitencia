@@ -278,6 +278,8 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
+<a href="DashbordAdm.php"><button>  Voltar  </button></a>
+
   <br>
   <h2>Fechamento Caixa</h2>
   <br>
