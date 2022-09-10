@@ -30,8 +30,8 @@
 								<th>Cpf</th>
                                 <th>nome</th>
                                 <th>Email</th>
+                                <th>Telefone</th>
                                 <th>Senha</th>
-                                <th>Cpf</th>
 								<th>Data de Cadastro</th>
 							</tr>
 						</thead>

@@ -292,7 +292,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="deleteFunc.php" method= "POST">
+  <form action="deleteFunc1.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="cpf">CPF</label>

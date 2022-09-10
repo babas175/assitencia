@@ -29,7 +29,7 @@ if(isset($_POST['entrar'])):
                     header('Location: DashbordAdm.php');
                
                 else:
-                    $erros[] ="<li> Usuario senha NAO CONFERE </li>";
+                    $erros[] ="<li> Usuario e senha NAO CONFERE </li>";
                 endif;
 
         else:
