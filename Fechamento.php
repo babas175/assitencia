@@ -1,8 +1,11 @@
-
-<?php
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
 
 <style>
@@ -141,7 +144,27 @@ input[type=text], select, textarea {
     display: inline-block;
  }
 
-    
+    input[type=submit] {
+        background-color: #494950;/* #7fff00*/
+        color: white;
+        padding: 12px 20px;
+        border: none;
+         border-radius: 15px;
+        cursor: pointer;
+        float: center;
+        text-align: center;
+            
+        position:absolute;
+        top: 500px;
+        left: 280px;
+        margin-top: -30px; /* descer mais para baixo o botão submit */
+
+    }
+
+    input[type=submit]:hover {
+        background-color:  black;
+        }
+
     .container {
         width: 700px;
         height: 580px;
@@ -164,6 +187,7 @@ input[type=text], select, textarea {
         left: 280px; 
         height: 580px; */
         
+        
         float: right;
         font-weight: bold;
         color: #000000;
@@ -171,11 +195,19 @@ input[type=text], select, textarea {
         justify-content: center;  
     }
 
-    .entrada{
-        display:inline-block;
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        color: #fffffe;
+        text-decoration: black;
     }
-    
-    
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 20px;
+    }
     h2{
       color: white;
       text-align:center
@@ -188,21 +220,24 @@ input[type=text], select, textarea {
     clear: both;
    
     }
+    button{
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
 
-  
+    @media screen and (max-width: 300px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100;
+          margin-top: 50;
+          
+        }
+        }
 
 
 
 </style>
 
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Dashbord Adm</title>
-  </head>
 
   <body>
 
@@ -219,16 +254,12 @@ input[type=text], select, textarea {
         <nav>
             <a href="DashbordAdm.php"><div class="link">Home</div></a>
             <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
-            <a href="">listar_funcionario.php<div class="link">Listar Funcionarios</div></a>
+            <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
-            <a href=""><div class="link">Cadastrar Produtos</div></a>
-
-            <a href=""><div class="link">Fechamento caixa</div></a>
-            <a href="sair.php"><div class="link">Sair</div></a>
-
+            <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
-
+            <a href="sair.php"><div class="link">Sair</div></a>
             
             
         </nav>
@@ -243,7 +274,7 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
-  <a href="DashbordAdm.php"><button>Voltar</button></a>
+  <a href="DashbordAdm.php"><button>  Voltar  </button></a>
   <br>
   <h2>Fechamento Caixa</h2>
   <br>
@@ -252,11 +283,55 @@ input[type=text], select, textarea {
   
 
  
-  <form action="Fechamento.php" method= "POST">
+  <form action="cadastrar.php" method= "POST">
+  <div class="row">
+    <div class="col-25">
+      <label for="cpf">Valor</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="id" name="cpf" placeholder=" Digite o valor " required>
+    </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="opcao">Opção</label>
+    </div>
+    <div class="col-75">
+      <select id="opcao" name="opcao">
+        <option value="avista">Entrada</option>
+        <option value="Boleto">Saida</option>
+               
+      </select>
+    </div>
+
+    <div class="row">
+    <div class="col-25">
+      <label for="data">Data</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="data" name="data" placeholder="dd-mm-yyyy"required>
+    </div>
+  </div>
+    
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="obs">Descrição</label>
+    </div>
+    <div class="col-75">
+      <textarea type="text" id="obs" name="obs" placeholder=""required></textarea>
+    </div>
+  </div>
  
 
-  
-  
+ 
+  <br>
+  <br>
+  <div class="row">
+    <input type="submit" value="Fechamento caixa" name="cadastrar"/>
+  </div>
   </form>
 </div>
 
