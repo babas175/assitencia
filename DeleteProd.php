@@ -1,8 +1,16 @@
-
 <?php
 
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
 
 <style>
@@ -154,18 +162,17 @@ input[type=text], select, textarea {
         position:absolute;
         top: 500px;
         left: 280px;
-        margin-top: 60px; /* descer mais para baixo o botão submit */
+        margin-top: -30px; /* descer mais para baixo o botão submit */
 
     }
 
     input[type=submit]:hover {
         background-color:  black;
-
         }
 
     .container {
         width: 700px;
-        height: 620px; /*580 */
+        height: 580px;
         background: #333;/*#adff2f*/
         position: absolute;
         top: 130px;
@@ -203,8 +210,8 @@ input[type=text], select, textarea {
 
     .col-75 {
         float: left;
-        width: 70%;
-        margin-top: 10px;
+        width: 75%;
+        margin-top: 20px;
     }
     h2{
       color: white;
@@ -217,6 +224,10 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
    
+    }
+    button{
+      border-radius: 5px;
+      cursor: pointer;
     }
 
 
@@ -233,15 +244,9 @@ input[type=text], select, textarea {
 </style>
 
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>ordem Servicos</title>
-  </head>
-
   <body>
 
+  <!-- <h1> MEGA CAPAS</h1> -->
     
     
 
@@ -252,11 +257,19 @@ input[type=text], select, textarea {
 
     <div class="barra">
         <nav>
-            <a href="#"><div class="link">Home</div></a>
+            <a href="DashbordAdm.php"><div class="link">Home</div></a>
+            <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
+            <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
+            <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
+            <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
+            <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
+
+
+
             <a href="sair.php"><div class="link">Sair</div></a>
             
             
@@ -272,96 +285,34 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
+  <a href="DashbordAdm.php"><button>  Voltar  </button></a>
   <br>
-  <h2>Ordem de Serviços</h2>
+  <h2>Delete Produtos</h2>
   <br>
   <br>
   <br>
   
 
  
-  <form action="OrdemServico.php" method= "POST">
+  <form action="DeleteProd.php" method= "POST">
   <div class="row">
     <div class="col-25">
-      <label for="nome">Nome</label>
+      <label for="id">Id</label>
     </div>
     <div class="col-75">
-      <input type="text" id="nome" name="nome" placeholder=" Digite nome " required>
+      <input type="text" id="id" name="id" placeholder=" Digite id" required>
     </div>
   </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="telefone">Telefone</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="telefone" name="telefone" placeholder="(xx)xxxxxxxxx"required>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="modelo">Modelo</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="modelo" name="modelo" placeholder="Digite o modelo"required>
-    </div>
-  </div>
-  
+ 
   
 
-  <div class="row">
-    <div class="col-25">
-      <label for="defeito">Defeito</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="defeito" name="defeito" placeholder="Digite o defeito"required>
-    </div>
-    
-  </div>
-
-  <div class="row">
-    <div class="col-25">
-      <label for="data">Data</label>
-    </div>
-    <div class="col-75">
-      <input type="date" id="data" name="data" placeholder="dd-mm-yyyy"required>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-25">
-      <label for="valor">Valor</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="valor" name="valor" placeholder="valor"required>
-    </div>
-    
-  </div>
 
 
-  <div class="row">
-    <div class="col-25">
-      <label for="datadeentrega">Data de Entrega</label>
-    </div>
-    <div class="col-75">
-      <input type="date" id="datadeentrega" name="datadeentrega" placeholder="dd-mm-yyyy"required>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-25">
-      <label for="obs">Observação</label>
-    </div>
-    <div class="col-75">
-      <textarea type="text" id="obs" name="obs" placeholder=""required></textarea>
-    </div>
-  </div>
-  <br>
-  <br>
-  
+ 
   <br>
   <br>
   <div class="row">
-    <input type="submit" value="Registra Ordem" name="registar"/>
+    <input type="submit" value="Delete Produto" name="delete"/>
   </div>
   </form>
 </div>
