@@ -272,7 +272,7 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
-<a href="../DashbordFunc.php"><button>  Voltar  </button></a>
+<a href="DashbordFunc.php"><button>  Voltar  </button></a>
 
   <br>
   <h2>Ordem de Serviços</h2>
@@ -282,7 +282,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="OrdemServico1.php" method= "POST">
+  <form action="OrdemServico2.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="nome">Nome</label>
