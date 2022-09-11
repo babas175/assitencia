@@ -252,29 +252,14 @@ input[type=text], select, textarea {
 
     <div class="barra">
         <nav>
+          
             <a href="DashbordFunc.php"><div class="link">Home</div></a>
-<<<<<<< HEAD
-            <a href="OrdemServico1.php"><div class="link">Ordem de Servicos</div></a>
-            <a href=""><div class="link">Listar de Serviços</div></a>
-            <a href="CadastraProd1.php"><div class="link">Cadastrar Produtos</div></a>
-            <a href="Fechamento.php1"><div class="link">Fechamento caixa</div></a>
-            <a href="sair.php1"><div class="link">Sair</div></a>
-=======
-<<<<<<<< HEAD:funcionario/CadastraProd2.php
-            <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
-            <a href=""><div class="link">Listar de Serviços</div></a>
-            <a href="CadastraProd2.php"><div class="link">Cadastrar Produtos</div></a>
-            <a href="Fechamento1.php"><div class="link">Fechamento caixa</div></a>
-            <a href="sair.php"><div class="link">Sair</div></a>
-========
             <a href="OrdemServico2.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd2.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento2.php"><div class="link">Fechamento caixa</div></a>
             <a href="sair2.php"><div class="link">Sair</div></a>
->>>>>>>> d383ab37ddd192753d56e37e260a06e59697d916:funcionario/CadastraProd.php
->>>>>>> d383ab37ddd192753d56e37e260a06e59697d916
-            
+
             
         </nav>
 
