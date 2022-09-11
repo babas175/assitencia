@@ -254,20 +254,11 @@ input[type=text], select, textarea {
     <div class="barra">
         <nav>
             <a href="DashbordFunc.php"><div class="link">Home</div></a>
-<<<<<<< HEAD:Fechamento2.php
             <a href="OrdemServico2.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd2.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento2.php"><div class="link">Fechamento caixa</div></a>
             <a href="sair2.php"><div class="link">Sair</div></a>
-=======
-            <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
-            <a href=""><div class="link">Listar de Serviços</div></a>
-            <a href="CadastraProd2.php"><div class="link">Cadastrar Produtos</div></a>
-            <a href="Fechamento1.php"><div class="link">Fechamento caixa</div></a>
-            <a href="../sair.php"><div class="link">Sair</div></a>
-            
->>>>>>> d383ab37ddd192753d56e37e260a06e59697d916:funcionario/Fechamento1.php
             
         </nav>
 
@@ -281,7 +272,7 @@ input[type=text], select, textarea {
 <h1> MEGA CAPAS</h1>
 
 <div class="container">
-<a href="../DashbordFunc.php"><button>  Voltar  </button></a>
+<a href="DashbordFunc.php"><button>  Voltar  </button></a>
 
   <br>
   <h2>Fechamento Caixa</h2>
