@@ -13,13 +13,22 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
     
+<style>
+	body{
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image1.jpg);
+	}
 
+	h1,td,th{
+		color: white;
+	}
+
+</style>
 	<body>
         
 
 		<div class="container theme-showcase" role="main">
 			<div class="page-header">
-				<h1>Funcionario cadastrados </h1>
+				<h1>Funcionarios Cadastrados </h1>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
