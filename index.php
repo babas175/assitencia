@@ -38,10 +38,12 @@
       position:absolute;
         top: 400px;
         left: 650px;
+       
     }
     input[type=submit]:hover {
         background-color:  blue;
         color; black;
+        
 
         }
 
