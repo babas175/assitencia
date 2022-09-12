@@ -197,22 +197,6 @@ ul li a:hover{
     padding: 8px;
 }
 
-<<<<<<< HEAD
-        
-    }
-    .button{
-      border-radius: 20px;
-      cursor: pointer;
-      position:absolute;
-        top: 400px;
-        left: 650px;
-       
-    }
-    input[type=submit]:hover {
-        background-color:  blue;
-        color; black;
-        
-=======
 .form input{
     width: 240px;
     height: 35px;
@@ -227,7 +211,6 @@ ul li a:hover{
     margin-top: 30px;
     font-family: sans-serif;
 }
->>>>>>> e2116c33edaf3110db27cb512ebdb3e9225a1aba
 
 .form input:focus{
     outline: none;
@@ -320,7 +303,7 @@ ul li a:hover{
         <br>
             <h1>Mega Assitencia <br><span>Tecnica</span></h1>
             <p class="par">O seu celular caiu? Quebrou?  Você está com problema em seu celular e não sabe como resolver? 
-                Venha para (Nome da Loja)! Assistência técnica especializada em celulares. 
+                Venha para Mega Assistência técnica especializada em celulares. 
                 Fazemos também troca de tela, conectores, desbloqueio, Acessórios e muito mais... Menor preço e maior qualidade.  
                 <br> Informações pelo telefone e whatsapp:</p>
 
