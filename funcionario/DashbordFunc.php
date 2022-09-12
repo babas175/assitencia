@@ -15,6 +15,7 @@
 
     body {
         background-image: url(assets/fundo.jpeg);
+        background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../assets/fundo.jpeg);
 
         /*background-color: #f9f9f9;*/
         

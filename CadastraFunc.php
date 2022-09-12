@@ -17,7 +17,7 @@
 
 
     body {
-        /*background-color: #f9f9f9;*/
+      background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image1.jpg);
         
     }
 
@@ -250,17 +250,18 @@ input[type=text], select, textarea {
 
     <div class="barra">
         <nav>
-            <a href="DashbordAdm.php"><div class="link">Home</div></a>
+        <a href="DashbordAdm.php"><div class="link">Home</div></a>
             <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
-            <a href=""><div class="link">Listar de Serviços</div></a>
+            <a href=""><div class="link">Listar ordem de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
             <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
-
+            <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
             <a href="sair.php"><div class="link">Sair</div></a>
+            
             
             
         </nav>

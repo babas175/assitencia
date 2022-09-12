@@ -8,7 +8,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: url(assets/fundo.jpeg);
+            background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(assets/fundo.jpeg);
         }
         a{
             color:white;

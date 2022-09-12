@@ -14,8 +14,7 @@
 
 
     body {
-        /*background-color: #f9f9f9;*/
-        
+      background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image1.jpg);
     }
 
 

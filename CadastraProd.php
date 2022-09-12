@@ -17,7 +17,7 @@
 
 
     body {
-        /*background-color: #f9f9f9;*/
+      background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image1.jpg);
         
     }
 
@@ -262,6 +262,7 @@ input[type=text], select, textarea {
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
             <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
             <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
+            <a href="listar_prod.php"><div class="link">Listar de Serviços</div></a>
             <a href="sair.php"><div class="link">Sair</div></a>
             
             
