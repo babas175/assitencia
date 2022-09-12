@@ -301,7 +301,7 @@ ul li a:hover{
         <br>
         <br>
         <br>
-            <h1>Mega Assitencia <br><span>Tecnica</span></h1>
+            <h1>Mega Assistencia <br><span>Tecnica</span></h1>
             <p class="par">O seu celular caiu? Quebrou?  Você está com problema em seu celular e não sabe como resolver? 
                 Venha para Mega Assistência técnica especializada em celulares. 
                 Fazemos também troca de tela, conectores, desbloqueio, Acessórios e muito mais... Menor preço e maior qualidade.  
