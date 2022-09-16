@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +8,27 @@
     <title>Document</title>
 </head>
 
+</html>
+
+<!-- css -->
 <style>
+    
+     body {
+      background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image1.jpg);
+        
+    }
+
+    h1{
+        color:white;
+        text-align: center;
+    }
+
 
     *{
         margin: 0;
         padding: 0;
     }
 
-
-    body {
-        background-image: url(assets/fundo.jpeg);
-
-        /*background-color: #f9f9f9;*/
-        
-    }
 
 
     #check{
@@ -105,7 +113,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Dashbord Func</title>
+        <title>Dashbord Adm</title>
   </head>
 
   <body>
@@ -121,17 +129,36 @@
 
     <div class="barra">
         <nav>
+
             <a href="DashbordFunc.php"><div class="link">Home</div></a>
             <a href="OrdemServico2.php"><div class="link">Ordem de Servicos</div></a>
             <a href=""><div class="link">Listar de Serviços</div></a>
             <a href="CadastraProd2.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento2.php"><div class="link">Fechamento caixa</div></a>
             <a href="sair2.php"><div class="link">Sair</div></a>
-            
 
+            
         </nav>
 
     </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Operaçao Feita com sucesso!!!!!!</h1>
+
 
     
 

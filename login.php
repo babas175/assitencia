@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,6 +52,20 @@
     </style>
 </head>
 <body>
+
+<div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Mega</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    
+                </ul>
+            </div>
     <form action="login_back.php" method= "POST">
     <div>
        
@@ -67,5 +82,7 @@
         <a href="login2.php">Eu sou administrador</a>
     </div>
     </form>
+    
+    </div>
 </body>
 </html>

@@ -257,7 +257,7 @@ input[type=text], select, textarea {
             <a href="CadastraFunc.php"><div class="link">Cadastrar Funcionario</div></a>
             <a href="listar_funcionario.php"><div class="link">Listar Funcionarios</div></a>
             <a href="OrdemServico.php"><div class="link">Ordem de Servicos</div></a>
-            <a href=""><div class="link">Listar de Serviços</div></a>
+            <a href="listar_ordem.php"><div class="link">Lista de Serviços</div></a>
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
@@ -288,13 +288,13 @@ input[type=text], select, textarea {
   
 
  
-  <form action="cadastrar.php" method= "POST">
+  <form action="fechamento1.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="cpf">Valor</label>
     </div>
     <div class="col-75">
-      <input type="text" id="id" name="cpf" placeholder=" Digite o valor " required>
+      <input type="text" id="id" name="valor" placeholder=" Digite o valor " required>
     </div>
   </div>
   
@@ -305,8 +305,8 @@ input[type=text], select, textarea {
     </div>
     <div class="col-75">
       <select id="opcao" name="opcao">
-        <option value="avista">Entrada</option>
-        <option value="Boleto">Saida</option>
+        <option value="entrada">Entrada</option>
+        <option value="Saida">Saida</option>
                
       </select>
     </div>

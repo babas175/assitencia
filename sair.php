@@ -5,7 +5,10 @@
 
     <?php
     include('conexao.php');
-    session_start();
+
+    if(!isset($_SESSION)) {
+        session_start();
+    }
     session_destroy();
     echo '<meta http-equiv="refresh" content="2;url=login.php">';
     echo '<progress max=100><strong>Progress:60%

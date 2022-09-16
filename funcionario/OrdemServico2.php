@@ -1,8 +1,11 @@
-
-<?php
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
 
 <style>
@@ -282,7 +285,7 @@ input[type=text], select, textarea {
   
 
  
-  <form action="OrdemServico2.php" method= "POST">
+  <form action="OrdemServico3.php" method= "POST">
   <div class="row">
     <div class="col-25">
       <label for="nome">Nome</label>

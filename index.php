@@ -197,7 +197,6 @@ ul li a:hover{
     padding: 8px;
 }
 
-<<<<<<< HEAD
         
     }
     .button{
@@ -212,7 +211,7 @@ ul li a:hover{
         background-color:  blue;
         color; black;
         
-=======
+    }
 .form input{
     width: 240px;
     height: 35px;
@@ -227,7 +226,7 @@ ul li a:hover{
     margin-top: 30px;
     font-family: sans-serif;
 }
->>>>>>> e2116c33edaf3110db27cb512ebdb3e9225a1aba
+
 
 .form input:focus{
     outline: none;

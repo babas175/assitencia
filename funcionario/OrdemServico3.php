@@ -20,7 +20,7 @@
 
 
     if(mysqli_query($conexao, $sql)){
-        echo header('Location: Success.php');
+        echo header('Location: Success1.php');
     }
     else{
         echo "Erro nao foi possivel cadastrar esse ordem verificar os dados ou tenta de novo".mysqli_connect_error();
