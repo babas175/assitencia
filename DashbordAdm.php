@@ -119,7 +119,7 @@
 
     <input type="checkbox" id="check">
     <!-- <label id="icone" for="check"><img src="assets/menu.png"></label> -->
-    <label id="icone" for="check"><h2>Dashbord</h2></label>
+    <label id="icone" for="check"><h2>Dashboard</h2></label>
 
 
     <div class="barra">

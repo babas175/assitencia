@@ -1,9 +1,9 @@
 <?php
 
-    $servidor = "localhost";
-    $usuario ="root";
-    $senha ="";
-    $dbname ="assistencia";
+    $servidor = "assistencia20.mysql.dbaas.com.br";
+    $usuario ="assistencia20";
+    $senha ="Sophard175";
+    $dbname ="assistencia20";
 
  
 
