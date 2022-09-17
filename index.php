@@ -328,6 +328,8 @@ ul li a:hover{
                 Venha para Mega Assistência técnica especializada em celulares. 
                 Fazemos também troca de tela, conectores, desbloqueio, Acessórios e muito mais... Menor preço e maior qualidade.  
                 <br> Informações pelo telefone e whatsapp:</p>
+                <br> (49)98848-7979 & (49)99443498</p>
+
 
                 
 
