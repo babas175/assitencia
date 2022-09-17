@@ -132,6 +132,8 @@
             <a href="CadastraProd.php"><div class="link">Cadastrar Produtos</div></a>
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
             <a href="listar_movimentacao.php"><div class="link">Entrada e Saida</div></a>
+            <a href="Relatorio.php"><div class="link">Relatório</div></a>
+
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
             <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
             <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
