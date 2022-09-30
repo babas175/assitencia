@@ -259,7 +259,10 @@ input[type=text], select, textarea {
             <a href="Fechamento.php"><div class="link">Fechamento caixa</div></a>
             <a href="listar_movimentacao.php"><div class="link">Entrada e Saida</div></a>
             <a href="Relatorio.php"><div class="link">Relatório</div></a>
+<<<<<<< HEAD
             <a href="buscar.php"><div class="link">Pesquisar</div></a>
+=======
+>>>>>>> 3170d75e5f7b056e5c101a8b0682f97f0daf2760
             <a href="deleteFunc.php"><div class="link">Delete Funcionario</div></a>
             <a href="AtualizaProd.php"><div class="link">Atualizar Produtos</div></a>
             <a href="DeleteProd.php"><div class="link">Delete Produtos</div></a>
