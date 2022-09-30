@@ -327,7 +327,8 @@ ul li a:hover{
             <p class="par">O seu celular caiu? Quebrou?  Você está com problema em seu celular e não sabe como resolver? 
                 Venha para Mega Assistência técnica especializada em celulares. 
                 Fazemos também troca de tela, conectores, desbloqueio, Acessórios e muito mais... Menor preço e maior qualidade.  
-                <br> Informações pelo telefone e whatsapp:</p>
+                <br> Informações pelo telefone e whatsapp:  (49)98848-7979 & (49)99443498</p>
+
 
                 
 
